@@ -934,8 +934,27 @@ img::-moz-selection {
     background: 0 0;
 }
 
+
+.instructorphoto img { width: 120px; height: 120px; border-radius: 120px; margin-bottom: 10px; }
+
+.instructor { display: inline-block; width: 400; text-align: center; margin-right: 20px; }
+
+.organizerphoto1 img { width: 85px; height: 85px; border-radius: 90px; margin-bottom: 8px; }
+
+.organizerphoto img { width: 80px; height: 80px; border-radius: 80px; margin-bottom: 8px; }
+
+.organizer {display: inline-block;width: 200;text-align: center;margin-right: 20px;}
+
+.instructors {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 45px;
+}
+
+
 body {
     webkit-tap-highlight-color: #b2653b;
 }
+
 
 
